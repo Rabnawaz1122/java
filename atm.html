@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+
+
+    <div class="yellow">
+      <img src="https://cdn-icons-png.flaticon.com/512/431/431154.png" alt="" class="atmimg">
+      <br>
+      <br>
+        <script class="atttm" >
+        
+        // alert('loveyou')
+        // document.write( 'love you')
+        
+        
+        
+        var enter_card = prompt("enter your atm card number ");
+        var atm_pin= prompt("enter your 4 digit pin ");
+        
+        var blance_amount_=500;
+        var amount_requried= parseInt( prompt(" enter Withdrawals amount    > blance in atm "+blance_amount_));
+        var fee_trx=23;
+        var total_blnce=blance_amount_-amount_requried-fee_trx;
+        
+        document.write(amount_requried<=blance_amount_);
+        document.write("<br/>");
+
+        document.write("<br/>");
+        document.write("your total  amount in your bank account......>"+blance_amount_);
+        document.write("<br/>");
+
+        document.write("<br/>");
+        document.write(" Withdrawals amount ......>"+amount_requried);
+        document.write("<br/>");
+       
+        document.write("<br/>");
+        document.write("atm trx fee......>"+fee_trx);
+        document.write("<br/>");
+        
+        document.write("<br/>");
+      document.write("Remaining balance ......>"+total_blnce);
+      document.write("</br>");
+
+
+document.write("</br>");
+document.write( " <....... Thank you for  Transaction ......>")
+        
+        </script>
+        
+        </div>
+
+
+</body>
+</html>

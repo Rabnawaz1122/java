@@ -1,0 +1,48 @@
+
+h1{
+
+
+    background-color: blue;
+}
+.yellow{
+
+
+    background-color: rgba(17, 246, 246, 0.438);
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin-left: px;
+    font-family:  Bold;
+    border: 2px solid black;
+}
+.atttm{
+
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.food{
+
+
+    background-color: aqua;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin-left: px;
+    font-family: Bold;
+border: 2px solid black;
+}
+.atmimg{
+
+height: 200px;
+width: 200px;
+
+
+
+}
+.foodrcp{
+    height: 200px;
+    width: 200px;
+background: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+
+<div class="food">
+
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/success-green-check-mark-icon.png" alt="" class="foodrcp">
+<br>
+      <br>
+<script>
+
+var name_of_oder = prompt(" enter your order");
+        
+        var qualty = parseInt( prompt(" enter your Quantity 01 to 100  per item 100rs "));
+
+       
+
+        var reuslt= qualty*100;
+
+        var cashpayment=parseInt( prompt(" enter your cash payments     . " +"your total bill" +reuslt));
+
+        var change= cashpayment-reuslt;
+        
+
+
+
+        document.write(cashpayment>=reuslt);
+        document.write("</br>");
+
+        document.write("</br>");
+        document.write("your Order--->"+name_of_oder);
+        document.write("</br>");
+
+        document.write("</br>");
+        document.write(" Total Quantity --->"+qualty)
+        
+        document.write("</br>");
+        
+        document.write("</br>");
+        document.write("Total  bill--->"+reuslt);
+        document.write("</br>");
+
+        document.write("</br>");
+        document.write(" cash .....> "+cashpayment);
+
+        document.write("</br>");
+
+        document.write("</br>");
+document.write( " Remaining balance  ......>"+change)
+
+
+
+document.write("</br>");
+
+
+document.write("</br>");
+document.write( " <....... Thank you for your Order ......>")
+
+</script>
+
+
+</div>
+
+
+</body>
+</html>
